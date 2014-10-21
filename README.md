@@ -6,6 +6,7 @@ Eway's Token Payment put together in a ZF2 module.
 Example
 --------
 
+```
 /**
  * This function is used to process the payment using the TokenPayment method in Eway's API.
  * This function preferably should be created in a service from where it can be utilized.
@@ -44,3 +45,4 @@ public function processPayment($managedCustomerID, $amount, $invoiceDescription,
 
     return false;
 }
+```
