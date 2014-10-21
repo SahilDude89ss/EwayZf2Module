@@ -8,8 +8,8 @@ Example
 
 ```
 /**
- * This function is used to process the payment using the TokenPayment method in Eway's API.
- * This function preferably should be created in a service from where it can be utilized.
+ * This function is used to process the payment using the TokenPayment method in Eway's API. This should be located preferrably in a Service 
+ * from where it can reused
  *
  * @param $managedCustomerID
  * @param $amount
