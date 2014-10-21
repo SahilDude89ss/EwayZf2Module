@@ -46,3 +46,7 @@ public function processPayment($managedCustomerID, $amount, $invoiceDescription,
     return false;
 }
 ```
+
+The following link has all the other available functions that can be called on the EWay Payment Class
+
+https://www.eway.com.au/gateway/ManagedPaymentService/managedCreditCardPayment.asmx
